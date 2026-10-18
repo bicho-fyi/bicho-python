@@ -1,0 +1,2 @@
+include ACKNOWLEDGEMENTS.md AGENTS.md CHANGELOG.md
+recursive-include tests test_*.py

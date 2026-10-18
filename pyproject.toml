@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bicho-fyi"
+version = "1.0.0"
+description = "Native Bicho error reporting over OTLP/HTTP JSON"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+authors = [{name = "FreshJuice", email = "contact@freshjuice.dev"}]
+maintainers = [{name = "Alex Zappa", email = "alex@zappa.dev"}]
+dependencies = []
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Typing :: Typed",
+  "Topic :: Software Development :: Bug Tracking",
+]
+
+[project.urls]
+Homepage = "https://bicho.fyi"
+Repository = "https://github.com/bicho-fyi/bicho-python"
+Issues = "https://github.com/bicho-fyi/bicho-python/issues"
+Author = "https://freshjuice.dev/"
+Contributor = "https://alex.zappa.dev/"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+bicho = ["py.typed"]
