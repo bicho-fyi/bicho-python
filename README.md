@@ -1,6 +1,6 @@
 # Bicho Python
 
-[![Version: 1.0.0](https://img.shields.io/badge/version-1.0.0-blue.svg)](pyproject.toml)
+[![Source version](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbicho-fyi%2Fbicho-python%2Fmain%2Fpyproject.toml&query=%24.project.version&label=source)](pyproject.toml)
 [![Python: 3.11+](https://img.shields.io/badge/Python-3.11%2B-3776ab.svg?logo=python)](pyproject.toml)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
 [![OTLP/HTTP JSON](https://img.shields.io/badge/OTLP-HTTP%20JSON-4de034.svg)](https://opentelemetry.io/docs/specs/otlp/)
